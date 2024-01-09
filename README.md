@@ -1,4 +1,17 @@
-# Unsupervised Learning & Hyperparameter Tuning
+# Unsupervised Learning & Hyperparameter Tuning overview
+I am a data scientist who was just hired by the LendingClub. They want to automate their lending decisions fully, and they hired me to lead this project. My team consists of a product manager to help me understand the business domain and a software engineer who will help me integrate my solution into their product. During the initial investigations, I've found that there was a similar initiative in the past, and luckily for me, they have left a somewhat clean dataset of LendingClub's loan data.
+
+In the first meeting with my team, we all have decided to use this dataset because it will allow me to skip months of work of building a dataset from scratch. In addition, I have decided to tackle this problem iteratively so that I can get test my hypothesis that I can automate these decisions and get actual feedback from the users as soon as possible. For that, I have proposed a few-step plan on how to approach this problem:
+
+The first step of my plan is to create a machine learning model to classify loans into accepted/rejected so that I can start learning if I have enough data to solve this simple problem adequately.
+
+The second step is to predict the grade for the loan.
+
+The third step is to predict the subgrade and/or interest rate.
+
+My team likes the plan, especially because after every step, I'll have a fully-working deployed model that my company can use. Excitedly I get to work!
+
+# Project structure
 This project (Project_M3S2) is composed of the following notebooks:
 -Part 1 - accept reject preparation;
 -Part 2 - model streamlit deploy;
